@@ -97,6 +97,7 @@
 
 
   <meta name="description" content="[TOC] 鼠标点击效果本博客采用hexo-theme-next主题，大部分的主题可能只是文件的后缀名不相同，文件名相同，可以使用subline Text 3或者其他编辑器修改配置文件等。 鼠标点击出现桃心在\codeblog\themes\next6\source\js下新建文件love.js文件，其中加入代码如下：1!function(e,t,a)&amp;#123;function n()&amp;#123">
+<meta name="keywords" content="hexo,live2d,个人博客">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo优化(鼠标点击效果+评论系统+站点统计+hexo-admin-qiniu+markdown图片存储+live2d板娘）">
 <meta property="og:url" content="http://agcl.top/2019/01/18/HexoBetter/index.html">
@@ -106,7 +107,7 @@
 <meta property="og:image" content="http://plii4i8ws.bkt.clouddn.com/1547874906585ww81rvx3.png?imageslim">
 <meta property="og:image" content="http://plii4i8ws.bkt.clouddn.com/1547874825919k3x0nqm9.png?imageslim">
 <meta property="og:image" content="http://plii4i8ws.bkt.clouddn.com/1547876997271ep2ndgsp.png?">
-<meta property="og:updated_time" content="2019-01-19T05:54:32.415Z">
+<meta property="og:updated_time" content="2019-01-19T12:48:14.814Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo优化(鼠标点击效果+评论系统+站点统计+hexo-admin-qiniu+markdown图片存储+live2d板娘）">
 <meta name="twitter:description" content="[TOC] 鼠标点击效果本博客采用hexo-theme-next主题，大部分的主题可能只是文件的后缀名不相同，文件名相同，可以使用subline Text 3或者其他编辑器修改配置文件等。 鼠标点击出现桃心在\codeblog\themes\next6\source\js下新建文件love.js文件，其中加入代码如下：1!function(e,t,a)&amp;#123;function n()&amp;#123">
@@ -241,6 +242,8 @@
     
 
     
+      
+    
 
     <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
 
@@ -257,6 +260,8 @@
       
     
 
+    
+      
     
 
     <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
@@ -275,8 +280,10 @@
     
 
     
+      
+    
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签<span class="badge">3</span></a>
 
   </li>
         
@@ -292,8 +299,10 @@
     
 
     
+      
+    
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类<span class="badge">2</span></a>
 
   </li>
         
@@ -309,8 +318,10 @@
     
 
     
+      
+    
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档<span class="badge">2</span></a>
 
   </li>
         
@@ -325,6 +336,8 @@
       
     
 
+    
+      
     
 
     <a href="/schedule/" rel="section"><i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
@@ -343,6 +356,8 @@
     
 
     
+      
+    
 
     <a href="/sitemap.xml" rel="section"><i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>站点地图</a>
 
@@ -359,6 +374,8 @@
       
     
 
+    
+      
     
 
     <a href="/404/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>公益 404</a>
@@ -473,7 +490,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-19 13:54:32" itemprop="dateModified" datetime="2019-01-19T13:54:32+08:00">2019-01-19</time>
+                <time title="修改时间：2019-01-19 20:48:14" itemprop="dateModified" datetime="2019-01-19T20:48:14+08:00">2019-01-19</time>
               
             
           </span>
@@ -651,6 +668,16 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/live2d/" rel="tag"># live2d</a>
+          
+            <a href="/tags/个人博客/" rel="tag"># 个人博客</a>
+          
+        </div>
+      
 
       
       
@@ -755,7 +782,7 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  
+                  <a href="/categories/index.html">
                     
                     
                       
@@ -764,10 +791,27 @@
                     
                     <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">分类</span>
-                  
+                  </a>
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
               
             </nav>
           
