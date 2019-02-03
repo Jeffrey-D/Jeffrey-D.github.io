@@ -7,6 +7,9 @@
       <categories>
         <category>Scrapy</category>
       </categories>
+      <tags>
+        <tag>Scrapy</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[Scrapy爬虫学习日记（二）-第一个项目]]></title>
